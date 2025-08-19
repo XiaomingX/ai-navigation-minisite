@@ -2,84 +2,39 @@ import { ToolCard } from "@/components/tool-card"
 
 const tools = [
   {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "AiPPT",
-    description: "AI一键生成PPT，用户无需排版、配色、配图，只需输入主题，AI即可一键生成。",
-    tag: "AI办公工具",
-    link:"https://www.baidu.com"
+    icon: "https://icon.jobleap4u.com/api/fav/?url=zhihu.com",
+    title: "知乎",
+    description: "中文互联网知名问答社区，聚集各领域专业人士分享知识、经验和见解。",
+    tag: "社交问答",
+    link: "https://www.zhihu.com"
   },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "比格AI PPT",
-    description: "支持AI一键生成PPT大纲，导入本地文本文件，一键更换模板配色，AI一键美化。",
-    link:"https://www.baidu.com"
+{
+    icon: "https://icon.jobleap4u.com/api/fav/?url=bilibili.com",
+    title: "哔哩哔哩",
+    description: "年轻人喜爱的视频平台，涵盖动画、番剧、游戏、生活等多种内容形式。",
+    tag: "视频娱乐",
+    link: "https://www.bilibili.com"
   },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "AI免费思维导图",
-    description: "AI智能思维导图，输入一句话即可生成。",
-    link:"https://www.baidu.com"
+ {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=github.com",
+    title: "GitHub",
+    description: "全球最大的代码托管平台，开发者可在此协作开发、分享开源项目。",
+    tag: "编程开发",
+    link: "https://www.github.com"
   },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "精定AI工具集",
-    description: "AI灵感选图、AI智能设计、AI文生图、AI取标题、创作效率新的FUNK。",
-    tag: "综合会员",
-    link:"https://www.baidu.com"
+ {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=douban.com",
+    title: "豆瓣",
+    description: "集读书、电影、音乐评论于一体的社区平台，拥有大量深度用户评价。",
+    tag: "文化社区",
+    link: "https://www.douban.com"
   },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "AI爆款文案一键分析",
-    description: "热点/爆文/文章内容分析，标题文案优化写作、AI内容创新能生成，新媒体。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "讯飞翻文",
-    description: "一键生成Word、PPT文档，让工作和学习更轻松、更高效。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "Xmind",
-    description: "【思维导图】Xmind AI思维导图助手。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "讯飞听见",
-    description: "【会议工具】讯飞听见是由科大讯飞推出的高效语音转文字、多语种翻译。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "酷表ChatExcel",
-    description: "【表格数据处理】北大团队开发的通过聊天来操作Excel表格的AI工具。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "博思AI白板",
-    description: "【思维导图】AI自动生成文字和思维导图。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "Mind Show",
-    description: "【幻灯片】国内独立开发者开发的输入内容自动生成PPT演示工具。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "Ajelix",
-    description: "【表格数据处理】处理Excel和Google sheets表格的AI工具。",
-    link:"https://www.baidu.com"
-  },
-  {
-    icon: "/placeholder.svg?height=40&width=40",
-    title: "Monica",
-    description: "【效率提升】Chat GPT驱动的Chrome浏览器AI助手软件。",
-    link:"https://www.baidu.com"
+{
+    icon: "https://icon.jobleap4u.com/api/fav/?url=csdn.net",
+    title: "CSDN",
+    description: "中文IT技术社区，提供技术文章、教程、资源下载等服务。",
+    tag: "技术学习",
+    link: "https://www.csdn.net"
   }
 ]
 
