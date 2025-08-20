@@ -8,6 +8,13 @@ const tools = [
     tag: "社交问答",
     link: "https://www.zhihu.com"
   },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=jobleap.cn",
+    title: "JobLeap",
+    description: "专注于招聘和求职的信息平台，提供岗位推荐、职业发展指导和行业资讯，帮助求职者和企业高效对接。",
+    tag: "招聘求职",
+    link: "https://jobleap.cn"
+  },  
 {
     icon: "https://icon.jobleap4u.com/api/fav/?url=bilibili.com",
     title: "哔哩哔哩",
