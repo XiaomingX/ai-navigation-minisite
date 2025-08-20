@@ -2,6 +2,11 @@
 
 一个精心整理的AI工具导航网站，汇集各类优质人工智能应用、工具和资源，帮助用户快速找到适合的AI解决方案。
 
+## 效果截图
+ - 在线演示：https://minisite.jobleap4u.com/
+<img width="3206" height="934" alt="image" src="https://github.com/user-attachments/assets/6fcb3971-d7a2-4631-a25b-8be6815304db" />
+
+
 ## 项目介绍
 
 AI导航站旨在成为连接用户与AI工具的桥梁，收录了从AI写作、图像生成、语音识别到数据分析等多个领域的优质工具，为不同需求的用户提供便捷的导航服务。
