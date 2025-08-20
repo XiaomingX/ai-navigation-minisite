@@ -64,7 +64,7 @@ export default function ConsultationForm() {
       console.log(values)
       await new Promise(resolve => setTimeout(resolve, 1000)) // Simulate API call
       alert('提交成功！我们将在24小时内与您联系。')
-    } catch (error) {
+    } catch {
       alert('提交失败，请稍后重试。')
     } finally {
       setIsSubmitting(false)
