@@ -7,13 +7,13 @@ const tools = [
     description: "专注于招聘和求职的信息平台，提供岗位推荐、职业发展指导和行业资讯，帮助求职者和企业高效对接。",
     tag: "招聘求职",
     link: "https://jobleap.cn"
-  },  
+  },
   {
     icon: "https://icon.jobleap4u.com/api/fav/?url=github.com",
-    title: "GitHub",
-    description: "全球最大的代码托管平台，开发者可在此协作开发、分享开源项目。",
-    tag: "编程开发",
-    link: "https://www.github.com"
+    title: "GitHub Jobs",
+    description: "面向开发者的招聘平台，依托GitHub社区，聚集全球技术职位和远程工作机会，方便开发者展示作品并申请职位。",
+    tag: "技术招聘",
+    link: "https://jobs.github.com"
   },
   {
     icon: "https://icon.jobleap4u.com/api/fav/?url=51job.com",
@@ -44,6 +44,34 @@ const tools = [
     link: "https://www.zhipin.com"
   },
   {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=upwork.com",
+    title: "Upwork",
+    description: "全球领先的自由职业者接单平台，提供海量远程项目，涵盖技术开发、设计、写作等多种服务。",
+    tag: "自由职业",
+    link: "https://www.upwork.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=fiverr.com",
+    title: "Fiverr",
+    description: "全球自由职业者市场，用户可以发布和承接微任务，适合设计、文案、视频制作等短周期项目。",
+    tag: "自由职业",
+    link: "https://www.fiverr.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=freelancer.com",
+    title: "Freelancer",
+    description: "大型自由职业者和雇主在线平台，支持竞标模式，项目涵盖多个行业和技能级别。",
+    tag: "自由职业",
+    link: "https://www.freelancer.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=toptal.com",
+    title: "Toptal",
+    description: "高端自由职业者平台，专注于软件开发、设计和金融人才筛选，连接全球顶级项目与客户。",
+    tag: "高端自由职业",
+    link: "https://www.toptal.com"
+  },
+  {
     icon: "https://icon.jobleap4u.com/api/fav/?url=workable.com",
     title: "Workable",
     description: "全球招聘平台，提供数千个职位，支持远程及办公室工作，帮助企业快速找到合适人才。",
@@ -63,13 +91,6 @@ const tools = [
     description: "专业招聘网站，专注中高端职位，覆盖金融、法律、技术等多个行业，服务全球30多个国家。",
     tag: "专业招聘",
     link: "https://www.michaelpage.com"
-  },
-  {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=devex.com",
-    title: "Devex",
-    description: "国际发展领域的求职平台，专注非营利、政府及国际组织的职位发布和招聘服务。",
-    tag: "国际发展招聘",
-    link: "https://www.devex.com/jobs/search"
   },
   {
     icon: "https://icon.jobleap4u.com/api/fav/?url=monster.com",
@@ -119,13 +140,6 @@ const tools = [
     description: "领先的企业人力资本管理平台，许多大公司使用Workday发布招聘信息，涵盖多种技术与程序员职位。",
     tag: "企业招聘",
     link: "https://workday.wd5.myworkdayjobs.com/Workday"
-  },
-  {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=dice.com",
-    title: "Dice",
-    description: "专注于IT和技术岗位的招聘平台，为软件开发人员和技术专家提供丰富职位选择。",
-    tag: "技术招聘",
-    link: "https://www.dice.com"
   },
   {
     icon: "https://icon.jobleap4u.com/api/fav/?url=stackoverflow.com",
@@ -212,13 +226,6 @@ const tools = [
     link: "https://eleduck.com"
   },
   {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=naukrigulf.com",
-    title: "Naukrigulf",
-    description: "中东地区领先的招聘网站，覆盖海湾国家多个行业和职位，适合多领域求职者。",
-    tag: "中东招聘",
-    link: "https://www.naukrigulf.com"
-  },
-  {
     icon: "https://icon.jobleap4u.com/api/fav/?url=bayt.com",
     title: "Bayt",
     description: "中东最大求职招聘平台，提供阿联酋、沙特、卡塔尔等国职位，支持多语言和行业搜索。",
@@ -233,20 +240,6 @@ const tools = [
     link: "https://www.gulftalent.com"
   },
   {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=monstergulf.com",
-    title: "Monster Gulf",
-    description: "Monster国际招聘的中东专版，涵盖多个行业职位，支持简历上传及职位匹配。",
-    tag: "中东招聘",
-    link: "https://www.monstergulf.com"
-  },
-  {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=superjob.ru",
-    title: "SuperJob",
-    description: "知名的俄罗斯招聘平台，提供大量职位信息，功能包括职位匹配与简历制作。",
-    tag: "俄罗斯招聘",
-    link: "https://www.superjob.ru"
-  },
-  {
     icon: "https://icon.jobleap4u.com/api/fav/?url=career.ru",
     title: "Career.ru",
     description: "面向应届毕业生和年轻求职者的招聘网站，提供培训和实习机会。",
@@ -254,11 +247,102 @@ const tools = [
     link: "https://career.ru"
   },
   {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=sinojobs.com",
+    icon: "https://icon.jobleap4u.com/api/fav/?url=www.sinojobs.com",
     title: "SinoJobs",
     description: "专注中俄人才交流和招聘的专业平台，聚焦中文人才在俄罗斯的职位机会。",
     tag: "中俄招聘",
     link: "https://www.sinojobs.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=sg.jobstreet.com",
+    title: "JobStreet",
+    description: "东南亚最大的招聘网站之一，提供全面多行业职位，支持多国语言搜索和申请。",
+    tag: "东南亚招聘",
+    link: "https://www.jobstreet.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=kalibrr.com",
+    title: "Kalibrr",
+    description: "聚焦菲律宾及印尼市场的专业招聘平台，着重技术与专业岗位，支持在线面试。",
+    tag: "东南亚招聘",
+    link: "https://www.kalibrr.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=glints.com",
+    title: "Glints",
+    description: "东南亚地区活跃的职业发展平台，兼具实习、全职及远程工作机会，支持职场培训。",
+    tag: "东南亚招聘",
+    link: "https://glints.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=sinojobs.com",
+    title: "SinoJobs",
+    description: "欧洲领先的国际及中欧跨国人才招聘平台，专注提供中欧企业招聘和海外人才服务。",
+    tag: "国际招聘",
+    link: "https://www.sinojobs.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=randstad.com",
+    title: "Randstad Europe",
+    description: "全球最大的雇佣机构之一，提供临时及永久职位，涵盖IT、医疗保健、工程及金融领域。",
+    tag: "临时招聘",
+    link: "https://www.randstad.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=adecco.com",
+    title: "Adecco Europe",
+    description: "国际领先的人力资源服务供应商，为欧洲企业提供多行业劳动力解决方案和人员配置。",
+    tag: "综合招聘",
+    link: "https://www.adecco.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=michaelpage.com",
+    title: "Michael Page Europe",
+    description: "专注中高级人才搜寻，涵盖财务、法律、人力资源和营销等领域，欧洲多国布局，广泛企业资源。",
+    tag: "高端招聘",
+    link: "https://www.michaelpage.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=ziprecruiter.com",
+    title: "ZipRecruiter",
+    description: "大型综合招聘平台，提供全职、兼职及远程工作岗位，适合多行业求职者，支持职位搜索与匹配。",
+    tag: "综合招聘",
+    link: "https://www.ziprecruiter.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=dice.com",
+    title: "Dice",
+    description: "专注于IT和技术领域的招聘平台，覆盖全职及远程技术岗位，是技术人才求职的重要渠道。",
+    tag: "技术招聘",
+    link: "https://www.dice.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=flexjobs.com",
+    title: "FlexJobs",
+    description: "专注远程、弹性工作和自由职业机会的平台，为求职者提供高质量的兼职和全职远程岗位。",
+    tag: "远程招聘",
+    link: "https://www.flexjobs.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=weworkremotely.com",
+    title: "We Work Remotely",
+    description: "全球领先的远程职位发布平台，覆盖设计、编程、客户支持等多个领域，专注纯远程岗位。",
+    tag: "远程招聘",
+    link: "https://weworkremotely.com"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=arc.dev",
+    title: "Arc.dev",
+    description: "硅谷科技公司直连的远程开发者平台，提供高薪远程合约岗位，门槛较高但岗位质量极佳。",
+    tag: "技术远程",
+    link: "https://arc.dev"
+  },
+  {
+    icon: "https://icon.jobleap4u.com/api/fav/?url=workana.com",
+    title: "Workana",
+    description: "拉美及全球市场成长快速的自由职业平台，覆盖设计、编程及市场营销等领域，支持多币种支付。",
+    tag: "自由职业",
+    link: "https://www.workana.com"
   }  
 ]
 
