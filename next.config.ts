@@ -9,8 +9,15 @@ const nextConfig: NextConfig = {
         port: '', // 端口，如果不需要可以留空
         pathname: '/**', // 允许该域名下的所有路径
       },
+      {
+        protocol: 'https', // 或者 'http'，根据实际情况选择
+        hostname: 'browser-worker.lininruc.workers.dev',
+        port: '', // 端口，如果不需要可以留空
+        pathname: '/**', // 允许该域名下的所有路径
+      },      
     ],
   },
+
 };
 
 export default nextConfig;
