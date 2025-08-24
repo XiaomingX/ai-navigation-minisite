@@ -29,7 +29,7 @@ export function ToolCard({ icon, title, description, tag, link }: ToolCardProps)
         setIsTimeout(true)
         setIsLoading(false)
       }
-    }, 30000)
+    }, 60000)
 
     return () => clearTimeout(timer)
   }, [icon])
