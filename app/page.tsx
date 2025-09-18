@@ -247,13 +247,6 @@ const tools = [
     link: "https://career.ru"
   },
   {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=www.sinojobs.com",
-    title: "SinoJobs",
-    description: "专注中俄人才交流和招聘的专业平台，聚焦中文人才在俄罗斯的职位机会。",
-    tag: "中俄招聘",
-    link: "https://www.sinojobs.com"
-  },
-  {
     icon: "https://icon.jobleap4u.com/api/fav/?url=sg.jobstreet.com",
     title: "JobStreet",
     description: "东南亚最大的招聘网站之一，提供全面多行业职位，支持多国语言搜索和申请。",
@@ -294,13 +287,6 @@ const tools = [
     description: "国际领先的人力资源服务供应商，为欧洲企业提供多行业劳动力解决方案和人员配置。",
     tag: "综合招聘",
     link: "https://www.adecco.com"
-  },
-  {
-    icon: "https://icon.jobleap4u.com/api/fav/?url=michaelpage.com",
-    title: "Michael Page Europe",
-    description: "专注中高级人才搜寻，涵盖财务、法律、人力资源和营销等领域，欧洲多国布局，广泛企业资源。",
-    tag: "高端招聘",
-    link: "https://www.michaelpage.com"
   },
   {
     icon: "https://icon.jobleap4u.com/api/fav/?url=ziprecruiter.com",
@@ -351,9 +337,10 @@ export default function Page() {
     <div className="container py-8 mx-auto">
       <h1 className="text-2xl font-bold mb-6">全球招聘网站</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        {tools.map((tool, index) => (
+        {/* 优化：用唯一的 link 替代 index 作为 key，避免重渲染 */}
+        {tools.map((tool) => (
           <ToolCard
-            key={index}
+            key={tool.link}
             icon={tool.icon}
             title={tool.title}
             description={tool.description}
@@ -365,4 +352,3 @@ export default function Page() {
     </div>
   )
 }
-
